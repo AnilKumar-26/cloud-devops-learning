@@ -1,0 +1,15 @@
+# AWS credentials - NEVER commit these
+.aws/
+*.pem
+*.key
+
+# Terraform files
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+
+# OS files
+.DS_Store
+Thumbs.db
